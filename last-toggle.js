@@ -10,7 +10,7 @@ AFRAME.registerComponent('last-toggle',{
             console.log('clicked');
             el.setAttribute('position','0 2 -600'); 
             el.setAttribute('opacity','0');
-            st2.setAttribute('animation', `property: position; to: ${posX} ${posY} ${posZ}; dir:alternate; dur:4000; loop:false`);
+            st2.setAttribute('animation', `property: position; to: ${posX} ${posY} ${posZ}; dir:alternate; dur:5000; loop:false`);
         }
         this.el.addEventListener('click',this.togglelast);
     }, 
