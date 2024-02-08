@@ -5,7 +5,7 @@ AFRAME.registerComponent('last-toggle',{
         pos = st2.getAttribute('position'); 
         posX = pos['x']; 
         posY = pos['y']; 
-        posZ = pos['z'] - 30;
+        posZ = pos['z'] - 50;
         this.togglelast = function() {
             console.log('clicked');
             el.setAttribute('position','0 2 -600'); 
